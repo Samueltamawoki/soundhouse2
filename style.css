@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 30px;
+    background-color:#C3DFE5 ;
+}
+
+#input2{
+    padding-top: 30px;
+
+}
+
+.seta{
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center; 
+}
+
+.produtos .venda{
+        width: 200px ;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
+.fundo{
+    width: 200px;
+}
+.fundo p{
+    background-color: #85B5BF;
+    border-radius: 5px;
+    justify-content: left;
+    width: 100px;
+    font-size: 17px;
+    cursor: pointer;
+    width: 200px;
+}
+#contas{
+    padding-top: 30px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+#acessorios{
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 320px;
+}
+
+#violao{
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 320px;
+    padding-top: 15px;
+}
+
+#formDePag p{
+    font-size: 30px;
+}
+
+#formDePag{
+    justify-content: space-around;
+}
+
+
+body{
+    background-color: #EDF6F9;
+}
+
+header{
+    
+    background-color: #85B5BF ;
+    display: flex;
+    justify-content: space-around;
+}
+
+#haha{
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background: #8CB4BD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 10px;
+    flex-wrap: wrap;
+    gap: 40px;
+
+  }
+  
+  .footer-section h3 {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #000;
+    gap: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section p {
+    font-size: 16px;
+    margin: 6px 0;
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+  
+  .payments img,
+  .socials img {
+    width: 45px;
+    margin: 0 8px;
+  }
+  
+  .footer-logo img {
+    width: 120px;
+  }
+  
+  
+
+.img{
+    background-color: #85B5BF;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.quemSomos {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.texto img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.texto p {
+    font-size: 16px;
+    margin-top: 15px;
+    width: 500px;
+    text-align: justify;
+}
+
+.formulario h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.form {
+    background: #8CB4BD;
+    padding: 25px;
+    border-radius: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 3px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.form textarea {
+    height: 120px;
+    
+}
+
+.form button {
+    width: 90px;
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 15px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+
+
+#quem{
+    font-size: 20px;
+    width: 700px;
+}
+
+.texto img, p{
+    width: 700px;
+    justify-content: center;
+}
+
+input{
+    border: none;
+}
+
+input:focus{
+    border: none;
+}
+
